@@ -14,9 +14,9 @@ def average(array):
         for columns_value in row_value:
             average_number = average_number + columns_value
     average_number = average_number / (len(array) * len(array[0]))
-    
+
     return average_number
-    
+
 
 def main():
     # this function is to test 2D array
@@ -32,7 +32,7 @@ def main():
         for loop_counter_rows in range(0, rows_int):
             temp_column = []
             for loop_counter_columns in range(0, columns_int):
-                random_number = random.randint(0,10)
+                random_number = random.randint(0, 10)
                 temp_column.append(random_number)
                 print("{0} ".format(random_number), end="")
             array.append(temp_column)
