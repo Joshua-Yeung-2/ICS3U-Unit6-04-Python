@@ -44,6 +44,8 @@ def main():
         print("sorry, this is not a valid number")
         print("please try again")
 
+    print("\nDone")
+
 
 if __name__ == "__main__":
     main()
